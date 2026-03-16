@@ -2,7 +2,6 @@ services:
   lucky:
     image: gdy666/lucky:latest
     container_name: lucky
-    hostname: lucky
     network_mode: "container:mihomo"
     restart: always
     volumes:
