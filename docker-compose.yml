@@ -1,5 +1,5 @@
 services:
-  ddns-go:
+  lucky:
     image: gdy666/lucky:latest
     container_name: lucky
     hostname: lucky
